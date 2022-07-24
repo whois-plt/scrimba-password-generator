@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+body {
+    margin: 0;
+    background: #1C1C1C;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+   font-weight: 800; 
+}
+
+h3 {
+    color: #d5d4d8;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
+}
+
+.span-green {
+    color: #4ADF86;
+}
+
+#main-container {
+    margin: 50px;
+    background: #1F2937;
+    padding: 100px 50px;
+}
+
+button {
+    background: #10B981;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #2F3E53;
+    margin: 25px 0;
+}
+
+#passwords-container {
+    display: flex;
+    margin: 0;
+    
+}
+
+#password1, #password2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #273549;
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    color: #4ADF86;
+}
+
+#password1 {
+    margin-right: 8px;
+}
+
+#password2 {
+    margin-left: 8px;
+}
