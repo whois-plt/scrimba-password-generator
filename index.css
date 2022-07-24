@@ -25,6 +25,13 @@ p {
 }
 
 #main-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#sec-container {
+    width: 500px;
     margin: 50px;
     background: #1F2937;
     padding: 100px 50px;
